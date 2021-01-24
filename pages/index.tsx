@@ -47,7 +47,6 @@ export default function Home({
     )
 }
 
-// @ts-ignore
 export const getStaticProps: GetStaticProps = async () => {
     const allPostsData = getSortedPostsData()
     return {
